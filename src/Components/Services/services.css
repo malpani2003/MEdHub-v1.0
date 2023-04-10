@@ -1,0 +1,12 @@
+.services .col-md-5{
+    background-color: rgb(8, 122, 140);
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+.services .col-md-5 li{
+    list-style:square;
+}

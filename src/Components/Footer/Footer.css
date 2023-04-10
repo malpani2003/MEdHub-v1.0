@@ -1,0 +1,16 @@
+.footer{
+    /* background-color: darkblue; */
+    color: white;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    position: fixed;
+    /* top: auto; */
+    bottom: 0px;
+}
+.footer div{
+    /* margin-top: 4px; */
+    /* margin-bottom: 4px; */
+}
+.footer p{
+    font-size: smaller;
+}

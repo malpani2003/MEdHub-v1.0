@@ -1,0 +1,103 @@
+
+.header {
+    height: 85vh;
+    background:url('https://img.freepik.com/free-vector/clean-medical-background_53876-97927.jpg?size=626&ext=jpg&ga=GA1.1.2046712174.1679799324&semt=sph');
+
+    /* background:linear-gradient(145deg, rgba(249, 247, 247, 0.4), rgba(235, 232, 232, 0.1)),url('https://sgmh.org/wp-content/uploads/2017/11/1.jpg'); */
+    /* background: linear-gradient(145deg, rgba(249, 247, 247, 0.1), rgba(235, 232, 232, 0.1)), url('https://tse4.mm.bing.net/th?id=OIP.4mqM0kXmA192bS_gRFMXWAHaDB&pid=Api&P=0'); */
+    /* background-position: center; */
+    background-size: cover;
+    
+    color: black;
+  }
+  .header .nav-link{
+    border-radius:100px;
+    width: 20%;
+    background-color: rgb(34, 56, 2);
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+  }
+.header_box{
+    /* padding: 200px; */
+    /* text-align: center; */
+    /* display: inline-table; */
+    color: rgb(0, 0, 0);
+    /* font-size: larger; */
+}
+
+/* .header_box .col-lg-6 img {
+    position: relative;
+    bottom: 0;
+    margin-bottom: 0 !important;
+    width: 82%;
+    height:auto;
+  }
+   */
+.header_box{
+    display: flex;
+}
+.header_box .Info{
+    /* text-align: center; */
+    /* display: flex; */
+    width:100%;
+    padding: 8%;
+    /* margin-top:3%; */
+    text-align: center;
+    font-weight: bold;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.header_box p{
+    font-size:large;
+}
+.header_box h1{
+    /* background-color:aqua; */
+    /* border-radius: 20px; */
+    /* padding: 15px; */
+    font-family: 'Alkatra', cursive;
+    font-size: 550%;
+    margin-bottom: 15px;
+}
+
+
+@media screen and (max-width:992px) {
+    /* .header_box .col-lg-6 img{
+        width:50%;
+        margin: auto;
+        display: block;
+        margin-top: 20px;
+    } */
+    .header_box .Info{
+        /* margin-top:10%; */
+        margin-bottom: 20px;
+    }
+    .header .nav-link{
+        border-radius:100px;
+        width: 30%;
+      }
+      .header_box h1{
+        /* background-color:aqua; */
+        /* border-radius: 20px; */
+        /* padding: 15px; */
+        font-size: 450%;
+        margin-bottom: 15px;
+    }
+    
+}
+
+@media screen and (max-width:692px) {
+    .header .nav-link{
+        border-radius:100px;
+        width: 50%;
+      }
+      .header_box h1{
+        /* background-color:aqua; */
+        /* border-radius: 20px; */
+        /* padding: 15px; */
+        margin-top: 20px;
+        font-size: 350%;
+        margin-bottom: 15px;
+    }
+    
+}

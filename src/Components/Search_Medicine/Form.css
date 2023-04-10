@@ -1,0 +1,51 @@
+.main_block{
+    /* background: url(https://cdn.wallpapersafari.com/49/31/roeqOv.png); */
+    background-size: cover;
+    background-position: center;
+}
+
+form.container{
+    /* border:3px solid black; */
+    border-radius:10px;
+    padding: 30px;
+        /* background:linear-gradient(145deg, rgba(249, 247, 247, 0.7), rgba(235, 232, 232, 0.6)),url(https://cdn.wallpapersafari.com/49/31/roeqOv.png); */
+        background-size: cover;
+        background-position: center;
+    /* margin-top: 60px; */
+    width: 80%;
+    /* margin-bottom: 20px; */
+    font-weight: bold;
+    background-color: white;
+}
+.back.nav-link {
+    padding: 10px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 10%;
+    text-align: center;
+}
+.mediName{
+    border: 2px solid black;
+}
+.table{
+    border: 2px solid black;
+    border-radius: 100px;
+}
+thead{
+    background-color: greenyellow;
+}
+
+.back.nav-link:hover {
+    background-color: #0062cc;
+}
+
+@media(max-width:900px) {
+    form.container{
+        width: 90%;
+    }
+    .back.nav-link{
+        width: 20%;
+    }
+}
